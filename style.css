@@ -1,0 +1,169 @@
+/* 
+    Document   : style
+    Created on : 26 Oct 2013, 6:40:04 PM
+    Author     : MpholoL
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body
+{
+  
+   background:#4040ff url("./images/background_gradient.png");
+   background-repeat:repeat-x;
+   padding-top: 10px;
+   font-family: 'HelveticaRegular',Helvetica,Arial;
+   font-size: 12px;
+   line-height: 20px;
+   color:#252323;
+  
+}
+
+h1
+{
+    color:#ae2e3d;
+    text-transform: uppercase;
+}
+
+#text-main h3
+{
+    color:#ae2e3d;
+    text-transform: capitalize;
+    font-size: 18px;
+  
+}
+
+#text-main{
+ margin-right: 150px;  
+ margin-left: 20px;
+ 
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+  
+    background-color: white;
+   -moz-box-shadow: 0 0 5px #888;
+   -webkit-box-shadow: 0 0 5px #888;
+   box-shadow: 0 0 5px #888;
+  padding: 20px;
+   margin-top: -40px;
+    z-index: 1;
+     position: relative;
+ margin-bottom: 20px;
+ border-radius: 0px 0px 10px 10px;
+  
+}
+
+#logo
+{
+   margin: 0 auto;
+    width: 70%;
+    margin-bottom:20px; 
+}
+
+#menu{
+    margin:0 auto;
+    width:73%;
+ 
+  margin-bottom: 20px;
+  text-align: left;
+  
+/*border:1px solid black;*/
+
+
+
+}
+.menuItem
+{
+   
+   
+    border-left:1px black solid;
+    border-right:1px black solid;
+    width: 120px;
+    padding-bottom:24px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: left;
+    background-color: #0606ff;
+    color: #ffffff;
+    font-weight: bold;
+   
+    
+}
+
+.menuItem:hover
+{
+    cursor: pointer;
+    color:#ae2e3d; 
+    background:#ffffff;
+    border:none;
+    z-index: 2;
+    position: relative;
+}
+
+.menu_selected
+{
+    color:#ae2e3d; 
+    background:#ffffff;
+    border:none;
+    z-index: 2;
+    position: relative;
+}
+
+.separator
+{
+    clear: both;
+}
+
+#footer
+{
+   
+    margin: 0 auto;
+   padding-bottom: 10px;
+    width: 73%;
+    background-color: #ffffff;
+     color:#000000;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+   text-height: 10px;
+    opacity: 0.6;
+    border-radius: 6px;
+
+}
+
+input[type='text'] {
+   width:200px;
+   background-color: #b4ceef;
+   border:1px solid #ae2e3d;
+}
+
+textArea
+{  background-color: #b4ceef;
+  border:1px solid #ae2e3d; }
+
+.error
+{
+    color:red;
+}
+
+img
+{
+    border:none;
+}
+    
+
+
+
+
+
+
+
